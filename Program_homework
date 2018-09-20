@@ -6,5 +6,6 @@ for i in range(len(a)):
     mul *= int(a[i])
 
 avg = sum/len(a)
-print(sum, mul)
-print(avg)
+print('Сума = ', sum)
+print('Произведене = ', mul)
+print('Среднее арифметическое = ',avg)
