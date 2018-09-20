@@ -1,6 +1,8 @@
 a = input().split()
 sum = 0
+mul = 1
 for i in range(len(a)):
     sum += int(a[i])
+    mul *= int(a[i])
     
-print(sum)
+print(sum, mul)
