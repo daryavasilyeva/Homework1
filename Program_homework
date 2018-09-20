@@ -10,5 +10,7 @@ for i in range(len(a)):
         max_element = int(a[i])
     if int(a[i]) < min_element:
         min_element = int(a[i])
-    
-print(sum, mul, max_element, min_element)
+avg = sum/len(a)
+print('Сума = ', sum)
+print('Произведене = ', mul)
+print('Среднее арифметическое = ',avg)
