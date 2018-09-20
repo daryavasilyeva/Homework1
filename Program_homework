@@ -2,10 +2,13 @@ a = input().split()
 sum = 0
 mul = 1
 max_element = int(a[0])
+min_element = int(a[0])
 for i in range(len(a)):
     sum += int(a[i])
     mul *= int(a[i])
     if int(a[i]) > max_element:
         max_element = int(a[i])
+    if int(a[i]) < min_element:
+        min_element = int(a[i])
     
-print(sum, mul, max_element)
+print(sum, mul, max_element, min_element)
