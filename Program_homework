@@ -4,5 +4,7 @@ mul = 1
 for i in range(len(a)):
     sum += int(a[i])
     mul *= int(a[i])
-    
+
+avg = sum/len(a)
 print(sum, mul)
+print(avg)
